@@ -1,0 +1,2 @@
+module SkillComponentsHelper
+end
