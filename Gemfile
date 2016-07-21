@@ -11,6 +11,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'mongoid', git: 'https://github.com/mongodb/mongoid.git'                    # MongoDB driver
 gem 'vuejs-rails'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 
 group :development, :test do

@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Eddybanks</title>
+    <title><%= @page_title ||= "eddybanks" %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class="outer-wrapper container-fluid">
+    <div class="row">
+      <div class="col-md-6 col-sm-1 col-lg-4">
+        <%= render 'layouts/nav' %>
+      </div>
+      <div class="col-md-6 col-sm-11 col-lg-8">
+        <div class="inner-wrapper container">
+          <% if @page_header.present? %>
+            <%= render 'layouts/header' %>
+          <% end %>
+          <%= yield %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
