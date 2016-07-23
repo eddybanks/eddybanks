@@ -5,3 +5,35 @@ $facepic: url(<%= asset_path 'facepic.jpg' %>);
 $moonlight1: url(<%= asset_path 'moonlight1.jpg' %>);
 $moonlight2: url(<%= asset_path 'moonlight2.jpg' %>);
 $steps: url(<%= asset_path 'steps.jpg' %>);
+
+// colors
+$dark_sienna: rgba(65, 11, 19, 1);
+$white: rgba(253, 255, 255, 1);
+$black: rgba(0, 0, 0, 1);
+$kobi: rgba(229, 164, 203, 1);
+$honeydew: rgba(226, 252, 239, 1);
+
+// fonts
+$aref_ruqaa: 'Aref Ruqaa', serif;
+$mirza: 'Mirza', cursive;
+$open_sans: 'Open Sans', sans-serif;
+$harmattan: 'Harmattan', sans-serif;
+$open_sans_condensed: 'Open Sans Condensed', sans-serif;
+$droid_serif: 'Droid Serif', serif;
+$indie_flower: 'Indie Flower', cursive;
+
+/** Mixins **/
+
+@mixin gradient($color) {
+  background: $color; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, $color, lighten($color, 50%)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, $color, lighten($color, 50%)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, $color, lighten($color, 50%)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, $color, lighten($color, 50%)); /* Standard syntax */
+}
+
+@mixin box_type($padding, $margin, $min_height) {
+  padding: $padding;
+  margin: $margin;
+  min-height: $min_height;
+}

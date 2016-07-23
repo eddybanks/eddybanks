@@ -11,11 +11,15 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'mongoid', git: 'https://github.com/mongodb/mongoid.git'                    # MongoDB driver
 gem 'vuejs-rails'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'materialize-sass'
+gem "font-awesome-rails"
+gem 'simple_form'
+
 
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do

@@ -8,13 +8,13 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="outer-wrapper container-fluid">
+  <body class="outer-wrapper">
     <div class="row">
-      <div class="col-md-6 col-sm-1 col-lg-4">
+      <div class="col s4">
         <%= render 'layouts/nav' %>
       </div>
-      <div class="col-md-6 col-sm-11 col-lg-8">
-        <div class="inner-wrapper container">
+      <div class="col s8 offset-s2">
+        <div class="inner-wrapper">
           <% if @page_header.present? %>
             <%= render 'layouts/header' %>
           <% end %>
