@@ -1,0 +1,21 @@
+[
+  {
+    "name": "UNM Assessment App",
+    "description": "A web application that enables members of the office of assessment to assess various colleges and their efficiency",
+    "software":
+    [
+      {
+        "name": "Git",
+        "description": "Version Control"
+      },
+      {
+        "name": "Ruby on Rails",
+        "description": "Web Development Framework"
+      },
+      {
+        "name": "Python",
+        "description": "Programming Language"
+      }
+    ]
+  }
+]

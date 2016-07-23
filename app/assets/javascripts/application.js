@@ -20,9 +20,15 @@ var vue_function = function() {
   })
 }
 
+
 var startup = function() {
   vue_function();
+
+  $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
 }
 
 $(document).ready(startup)
-$(document).on('page:load', startup);
+$(document).on('turbolinks:load', startup);

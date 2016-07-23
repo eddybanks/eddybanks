@@ -14,6 +14,7 @@ gem 'vuejs-rails'
 gem 'materialize-sass'
 gem "font-awesome-rails"
 gem 'simple_form'
+gem 'normalize-rails'
 
 
 
