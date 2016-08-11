@@ -9,18 +9,12 @@
   </head>
 
   <body class="outer-wrapper">
-    <div class="row">
-      <div class="col s4">
-        <%= render 'layouts/nav' %>
-      </div>
-      <div class="col s8 offset-s2">
-        <div class="inner-wrapper">
-          <% if @page_header.present? %>
-            <%= render 'layouts/header' %>
-          <% end %>
-          <%= yield %>
-        </div>
-      </div>
+    <%= render 'layouts/nav' %>
+    <div class="inner-wrapper">
+      <% if @page_header.present? %>
+        <%= render 'layouts/header' %>
+      <% end %>
+      <%= yield %>
     </div>
   </body>
 </html>
