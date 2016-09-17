@@ -11,7 +11,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'mongoid', git: 'https://github.com/mongodb/mongoid.git'                    # MongoDB driver
 gem 'vuejs-rails'
-gem 'materialize-sass'
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 gem "font-awesome-rails"
 gem 'simple_form'
 gem 'normalize-rails'

@@ -1,16 +1,5 @@
-<nav>
-  <div class="nav-wrapper">
-    <%= link_to 'eddybanks', root_path, class: 'brand-logo' %>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li>
-        <%= link_to 'about', about_path %>
-      </li>
-      <li>
-        <%= link_to 'faqs', faqs_path %>
-      </li>
-      <li>
-        <%= link_to 'contact', contact_path %>
-      </li>      
-    </ul>
-  </div>
+<nav class="ui vertical fluid tabular menu nav">
+  <%= link_to 'Who Am I?', about_path, class: 'item' %>
+  <%= link_to 'My Portfolio', skills_path, class: 'item' %>
+  <%= link_to 'Leave A Message', contact_path, class: 'item' %>
 </nav>
