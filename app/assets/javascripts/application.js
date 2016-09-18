@@ -12,6 +12,9 @@ var startup = function() {
   $('.item').hover(function () {
     $(this).toggleClass('active');
   });
+
+  $('.ui.sidebar')
+    .sidebar('toggle');
 }
 
 $(document).ready(startup)

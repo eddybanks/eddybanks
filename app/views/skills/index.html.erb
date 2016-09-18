@@ -1,1 +1,9 @@
-<!-- Page variables -->
+<section class="skills index">
+  <div class="ui divided items">
+    <% @skills.each do |skill| %>
+      <div class="item">
+        <h5 class="header"><%= skill.name %></h4>
+      </div>
+    <% end %>
+  </div>
+</section>
