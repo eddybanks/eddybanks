@@ -6,7 +6,10 @@ projects = JSON.parse(open('db/data/projects.json').read)
 skills.each do |s|
   skill = Skill.create(
     name: s['name'],
-    description: s['description']
+    skill_type: s['type'],
+    hierarchy: s['hierarchy'],
+    description: s['description'],
+    list: s['list']
   )
 end
 

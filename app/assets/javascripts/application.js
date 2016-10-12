@@ -1,6 +1,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require semantic-ui
 //= require vue
 //= require vue-router
 //= require vue-resource
@@ -9,13 +10,10 @@
 
 
 var startup = function() {
-  $('.item').hover(function () {
-    $(this).toggleClass('active');
-  });
+  $('.ui.sticky').sticky();
 
-  $('.ui.sidebar')
-    .sidebar('toggle');
+  $('.ui.accordion').accordion();
 }
 
-$(document).ready(startup)
+$(document).ready(startup);
 $(document).on('turbolinks:load', startup);

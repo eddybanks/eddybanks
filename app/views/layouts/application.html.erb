@@ -9,18 +9,15 @@
   </head>
 
   <body class="outer-wrapper">
-    <div class="ui grid">
-      <div class="four wide column navbar">
-        <%= render 'layouts/nav' %>
+    <%= render 'layouts/nav' %>
+    <div class="inner-wrapper ui grid">
+      <div class="container center">
+        <% if @page_header.present? %>
+          <%= render 'layouts/header' %>
+        <% end %>
+        <%= yield %>
       </div>
-      <div class="twelve wide stretched column">
-        <div class="ui vertical padded segment">
-          <% if @page_header.present? %>
-            <%= render 'layouts/header' %>
-          <% end %>
-          <%= yield %>
-        </div>
-      </div>
+
     </div>
   </body>
 </html>

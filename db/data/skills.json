@@ -1,13 +1,124 @@
 [
   {
-    "name": "Webdesign",
-    "description": "For the past two years, I have been part of a time that created a variety of web applications using ruby on rails"
+    "name": "Web Application Frameworks",
+    "type": "software",
+    "hierarchy": "1",
+    "description": "Frameworks for building web applications",
+    "list": [
+      { "name": "Ruby on Rails", "level": "intermediate" },
+      { "name": "Meteor", "level": "intermediate" }
+    ]
   },
   {
-    "name": "Object Oriented Programming",
-    " description": "I mostly studied c++, c# and java for my undergrad. However, I recently developed an interest in working with python and ruby and have been using them since for most projects involving algorithms and reasoning"
+    "name": "Web Application Basics",
+    "type": "software",
+    "hierarchy": "2",
+    "description": "The basics for building a web application or website",
+    "list": [
+      { "name": "CSS", "level": "advanced" },
+      { "name": "HTML", "level": "advanced" },
+      { "name": "Javascript", "level": "intermediate" }
+    ]
   },
   {
-    "name": "Computer Networks"
+    "name": "CSS and Javascript Frameworks and Libraries",
+    "type": "software",
+    "hierarchy": "1",
+    "list": [
+      { "name": "SCSS/SASS", "level": "intermediate" },
+      { "name": "Jquery", "level": "intermediate" },
+      { "name": "Coffescript", "level": "beginner" },
+      { "name": "React", "level": "intermediate" },
+      { "name": "Bootstrap", "level": "intermediate" },
+      { "name": "Semantic-ui", "level": "intermediate" },
+      { "name": "Relay", "level": "beginner" }
+    ]
+  },
+  {
+    "name": "Web Hosting",
+    "type": "software",
+    "hierarchy": "2",
+    "list": [
+      { "name": "AWS web services", "level": "beginner" },
+      { "name": "Heroku", "level": "intermediate" },
+      { "name": "GitHub Pages", "level": "beginner" }
+    ]
+  },
+  {
+    "name": "Version Control and Collaboration",
+    "type": "software",
+    "hierarchy": "2",
+    "list": [
+      { "name": "Git", "level": "intermediate" },
+      { "name": "GitHub", "level": "intermediate" },
+      { "name": "Gitlab", "level": "intermediate" },
+      { "name": "Bitbucket", "level": "intermediate" }
+    ]
+  },
+  {
+    "name": "Databases and Database Management Systems",
+    "type": "software",
+    "hierarchy": "1",
+    "list": [
+      { "name": "PostgreSQL", "level": "intermediate" },
+      { "name": "MySQL", "level": "intermediate" },
+      { "name": "MongoDB", "level": "intermediate" },
+      { "name": "Neo4j", "level": "beginner" },
+      { "name": "Oracle", "level": "intermediate" }
+    ]
+  },
+  {
+    "name": "Project Management and Team Communication",
+    "type": "software",
+    "hierarchy": "3",
+    "list": [
+      { "name": "Trello", "level": "intermediate" },
+      { "name": "Asana", "level": "intermediate" },
+      { "name": "Slack", "level": "intermediate" },
+      { "name": "Hive", "level": "intermediate" }
+    ]
+  },
+  {
+    "name": "Editors",
+    "type": "software",
+    "hierarchy": "3",
+    "list": [
+      { "name": "Atom", "level": "intermediate" },
+      { "name": "Brackets", "level": "intermediate" },
+      { "name": "Sublime Text", "level": "intermediate" }
+    ]
+  },
+  {
+    "name": "Design Tools",
+    "type": "software",
+    "hierarchy": "3",
+    "list": [
+      { "name": "Google Fonts", "level": "intermediate" },
+      { "name": "Font Awesome", "level": "intermediate" },
+      { "name": "Adobe Experience Deign CC (XD)", "level": "intermediate" },
+      { "name": "InVision", "level": "beginner" }
+    ]
+  },
+  {
+    "name": "Program Languages",
+    "type": "software",
+    "hierarchy": "1",
+    "list": [
+      { "name": "Python", "level": "intermediate" },
+      { "name": "Ruby", "level": "intermediate" },
+      { "name": "Java", "level": "intermediate" },
+      { "name": "C, C++, C#", "level": "beginner" }
+    ]
+  },
+  {
+    "name": "Spoken Languages",
+    "type": "languages",
+    "hierarchy": "2",
+    "list": [
+      { "name": "English", "proficiency": "native" },
+      { "name": "Korean", "proficiency": "intermediate" },
+      { "name": "French", "proficiency": "beginner" },
+      { "name": "Japanese", "proficiency": "conversational" }
+    ]
   }
 ]
