@@ -10,9 +10,9 @@
 
 
 var startup = function() {
-  $('.ui.sticky').sticky();
-
-  $('.ui.accordion').accordion();
+  $('.collapse').collapse({
+    show: true
+  });
 }
 
 $(document).ready(startup);

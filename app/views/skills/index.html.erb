@@ -1,20 +1,14 @@
-<section class="skills index">
-  <!-- <div class="ui divided items">
-    <%# @skills.each do |skill| %>
-      <div class="item">
-        <h5 class="header"><%#= skill.name %></h4>
-      </div>
-    <%# end %>
-  </div> -->
-  <div class="ui segment">
+<section class="section" id="skills-index">
+  <div id="accordion" role="tablist" aria-multiselectable="true">
     <% @skills.each do |skill| %>
-      <div class="ui accordion">
-        <div class="title">
-          <i class="dropdown icon"></i>
-          <%= skill.name %>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading<%= skill.id %>">
+          <h4 class="panel-title">
+            <%= link_to "#{skill.name}", "collapse#{skill.id}", data: { toggle: 'collapse', parent: '#accordion' }, aria: { expanded: 'true', controls: "collapse#{skill.id}" } %>
+          </h4>
         </div>
-        <div class="content">
-          <%= skill.description %>
+        <div class="panel-collapse collapse in" role="tabpanel" id="collapse<%= skill.id %>" role="tabpanel" aria-labelledby="heading<%= skill.id %>">
+          <%= simple_format skill.description %>
         </div>
       </div>
     <% end %>
