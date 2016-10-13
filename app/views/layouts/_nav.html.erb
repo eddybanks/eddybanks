@@ -1,5 +1,8 @@
-<nav class="ui sticky fixed top secondary pointing menu" id="main-nav">
-  <%= link_to 'Who Am I?', about_path, class: 'item' %>
-  <%= link_to 'My Portfolio', skills_path, class: 'item' %>
-  <%= link_to 'Leave A Message', contact_path, class: 'item' %>
+<nav id="main-nav">
+  <ul class="nav nav-pills nav-stacked">
+    <li><%= link_to 'Who Am I?', about_path, class: 'item' %></li>
+    <li><%= link_to 'My Portfolio', skills_path, class: 'item' %></li>
+    <li><%= link_to 'Leave A Message', contact_path, class: 'item' %></li>
+    <li></li>
+  </ul>
 </nav>

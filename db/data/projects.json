@@ -1,6 +1,6 @@
 [
   {
-    "name": "UNM Assessment App",
+    "name": "UNM Assessment Application",
     "description": "A web application that enables members of the office of assessment to assess various colleges and their efficiency",
     "software":
     [
@@ -17,5 +17,14 @@
         "description": "Programming Language"
       }
     ]
+  },
+  {
+    "name": "ShareNM Resource Directory"
+  },
+  {
+    "name": "Personal Database Project: CS564 project"
+  },
+  {
+    "name": "Company Catalog: Ransack Demo"
   }
 ]
