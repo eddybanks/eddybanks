@@ -37,3 +37,10 @@ $indie_flower: 'Indie Flower', cursive;
   margin: $margin;
   min-height: $min_height;
 }
+
+@mixin font_props($family, $size, $color: rgba(0, 0, 0, 1), $bgcolor: rgba(253, 255, 255, 1)) {
+  font-family: $family;
+  font-size: $size;
+  color: $color;
+  background-color: $bgcolor;
+}

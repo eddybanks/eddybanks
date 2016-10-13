@@ -20,8 +20,8 @@ projects.each do |p|
   )
   p['software'].each do |ps|
     project.softwares.create(
-      name: ps['name'],
-      description: ps['description']
+      name: ps['name'].present? ? ps['name'] : nil,
+      description: ps['description'].present? ? ps['description'] : nil
     )
   end
 end

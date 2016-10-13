@@ -5,6 +5,9 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
     @projects = Project.all
+
+  # page variables
+    @page_header = 'My Portfolio'
   end
 
   # GET /projects/1

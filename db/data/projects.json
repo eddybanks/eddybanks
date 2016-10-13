@@ -1,7 +1,8 @@
 [
   {
     "name": "UNM Assessment Application",
-    "description": "A web application that enables members of the office of assessment to assess various colleges and their efficiency",
+    "description": "A web application that enables members of the office of assessment to assess various colleges and their efficiency.",
+    "image-path": "projects/assessment_app.jpg",
     "software":
     [
       {
@@ -11,20 +12,55 @@
       {
         "name": "Ruby on Rails",
         "description": "Web Development Framework"
-      },
-      {
-        "name": "Python",
-        "description": "Programming Language"
       }
     ]
   },
   {
-    "name": "ShareNM Resource Directory"
+    "name": "ShareNM Resource Directory",
+    "description": "Share New Mexico's resource directory and database catalog web application.",
+    "image-path": "projects/share_nm.jpg",
+    "software":
+    [
+      {
+        "name": "Git",
+        "description": "Version Control"
+      },
+      {
+        "name": "Ruby on Rails",
+        "description": "Web Development Framework"
+      }
+    ]
   },
   {
-    "name": "Personal Database Project: CS564 project"
+    "name": "Personal Database Project: CS564 project",
+    "description": "A demonstration of the search capabilities made available via the ransack gem.",
+    "image-path": "projects/pda_app.jpg",
+    "software":
+    [
+      {
+        "name": "Git",
+        "description": "Version Control"
+      },
+      {
+        "name": "Ruby on Rails",
+        "description": "Web Development Framework"
+      }
+    ]
   },
   {
-    "name": "Company Catalog: Ransack Demo"
+    "name": "Company Catalog: Ransack Demo",
+    "description": "A demonstration of the search capabilities made available via the ransack gem.",
+    "image-path": "projects/company_catalog.jpg",
+    "software":
+    [
+      {
+        "name": "Git",
+        "description": "Version Control"
+      },
+      {
+        "name": "Ruby on Rails",
+        "description": "Web Development Framework"
+      }
+    ]
   }
 ]
