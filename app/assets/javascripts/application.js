@@ -10,10 +10,10 @@
 
 
 var startup = function() {
-  $('.collapse').collapse({
-    toggle: true
-  });
-  $('#sidebar').affix({offset: {top: 150} });
+  // $('.collapse').collapse({
+  //   toggle: true
+  // });
+  // $('#sidebar').affix({offset: {top: 150} });
 }
 
 $(document).ready(startup);

@@ -7,9 +7,13 @@
             <%= link_to "#{skill.name}", "collapse#{skill.id}", data: { toggle: 'collapse', parent: '#accordion' }, aria: { expanded: 'true', controls: "collapse#{skill.id}" } %>
           </h4>
         </div>
-        <div class="panel-collapse collapse in" role="tabpanel" id="collapse<%= skill.id %>" role="tabpanel" aria-labelledby="heading<%= skill.id %>">
+        <div class="panel-collapse in" role="tabpanel" id="collapse<%= skill.id %>" role="tabpanel" aria-labelledby="heading<%= skill.id %>">
           <div class="panel-body">
-            <%= simple_format skill.description %>
+            <ul>
+              <% skill.list.each do |item| %>
+                <li><%= item['name'] %></li>
+              <% end %>
+            </ul>
           </div>
         </div>
       </div>

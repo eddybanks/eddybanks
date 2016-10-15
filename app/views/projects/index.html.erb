@@ -6,7 +6,7 @@
           <div class="panel panel-default">
             <div class="panel-image">
               <%#= project.name %>
-              <%= image_tag 'moonlight2.jpg', class: 'img-responsive' %>
+              <%= image_tag 'projects/william_farm_produce/giphy.gif', data: { toggle: 'modal', target: "modal#{project.id}" }, class: 'img-responsive' %>
             </div>
             <div class="panel-heading">
               <%= project.name %>
@@ -24,8 +24,9 @@
             </div>
           </div>
         </div>
+        <%= render 'project_modal', locals: { project: project } %>
+        pry
       <% end %>
     <!--/div-->
-
   <!-- </div> -->
 </section>

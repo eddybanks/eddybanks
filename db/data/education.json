@@ -1,0 +1,23 @@
+[
+  {
+    "name": "University of New Mexico",
+    "major": "Computer Engineering",
+    "degree": "Master of Science",
+    "location": "Albuquerque, New Mexico",
+    "country": "U.S.A"
+  },
+  {
+    "name": "Chungnam National University",
+    "major": "Computer Engineering",
+    "degree": "Bachelor of Science",
+    "location": "Daejeon",
+    "country": "South Korea"
+  },
+  {
+    "name": "Keimyung University",
+    "major": "Korean Language",
+    "degree": "Certificate",
+    "location": "Daegu",
+    "country": "South Korea"
+  }
+]

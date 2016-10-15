@@ -1,0 +1,20 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<div class="short-bio w3-center">
+  <h3>
+    Hello, my name is Edwin Agbenyega.
+  </h3>
+  <p class="">
+    I am a software developer with experience in Ruby on Rails Full Stack Web Development and Database Management.
+  </p>
+</div>
+
+<nav>
+  <ul class="w3-navbar w3-black">
+    <li><%= link_to 'About', about_path, class: 'item' %></li>
+    <li><%= link_to 'Skills', skills_path, class: 'item' %></li>
+    <li><%= link_to 'Portfolio', projects_path, class: 'item' %></li>
+    <li><%= link_to 'Contact', contact_path, class: 'item' %></li>
+  </ul>
+</nav>
