@@ -1,5 +1,5 @@
 <section class="section" id="skills-index">
-  <div id="accordion" role="tablist" aria-multiselectable="true">
+  <div id="accordion" class="panel-group" role="tablist" aria-multiselectable="true">
     <% @skills.each do |skill| %>
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="heading<%= skill.id %>">
@@ -8,7 +8,9 @@
           </h4>
         </div>
         <div class="panel-collapse collapse in" role="tabpanel" id="collapse<%= skill.id %>" role="tabpanel" aria-labelledby="heading<%= skill.id %>">
-          <%= simple_format skill.description %>
+          <div class="panel-body">
+            <%= simple_format skill.description %>
+          </div>
         </div>
       </div>
     <% end %>

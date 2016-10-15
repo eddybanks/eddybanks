@@ -9,14 +9,12 @@
   </head>
 
   <body class="outer-wrapper">
-    <div class="container-fluid">
+    <div class="container">
       <% if @page_header.present? %>
         <%= render 'layouts/header' %>
       <% end %>
       <div class="row">
-        <div class="col-md-2">
-          <%= render 'layouts/nav' %>
-        </div>
+        <%= render 'layouts/nav' %>
         <div class="col-md-10">
           <div class="inner-wrapper">
             <div class="container-fluid">

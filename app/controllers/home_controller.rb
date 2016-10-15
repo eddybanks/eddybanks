@@ -3,6 +3,8 @@ class HomeController < ApplicationController
   end
 
   def about
+    # page variables
+      @page_header = 'About Me!'
   end
 
   def calendar

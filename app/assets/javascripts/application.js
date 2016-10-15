@@ -1,6 +1,6 @@
 //= require jquery
-//= require bootstrap-sprockets
 //= require jquery_ujs
+//= require bootstrap-sprockets
 //= require turbolinks
 //= require vue
 //= require vue-router
@@ -11,8 +11,9 @@
 
 var startup = function() {
   $('.collapse').collapse({
-    show: true
+    toggle: true
   });
+  $('#sidebar').affix({offset: {top: 150} });
 }
 
 $(document).ready(startup);
