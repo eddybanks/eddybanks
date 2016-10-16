@@ -16,7 +16,9 @@ end
 projects.each do |p|
   project = Project.create(
     name: p['name'],
-    description: p['description']
+    description: p['description'],
+    folder: p['folder'],
+    image: p['image']
   )
   p['software'].each do |ps|
     project.softwares.create(

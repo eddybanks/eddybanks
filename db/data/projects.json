@@ -2,7 +2,8 @@
   {
     "name": "UNM Assessment Application",
     "description": "A web application that enables members of the office of assessment to assess various colleges and their efficiency.",
-    "image-path": "projects/assessment_app.jpg",
+    "folder": "assessment",
+    "image": "assessment_app.jpg",
     "software":
     [
       {
@@ -18,7 +19,8 @@
   {
     "name": "ShareNM Resource Directory",
     "description": "Share New Mexico's resource directory and database catalog web application.",
-    "image-path": "projects/share_nm.jpg",
+    "folder": "sharenm",
+    "image": "share_nm.jpg",
     "software":
     [
       {
@@ -34,7 +36,8 @@
   {
     "name": "Personal Database Project: CS564 project",
     "description": "A demonstration of the search capabilities made available via the ransack gem.",
-    "image-path": "projects/pda_app.jpg",
+    "folder": "pda",
+    "image": "pda_app.jpg",
     "software":
     [
       {
@@ -50,7 +53,8 @@
   {
     "name": "Company Catalog: Ransack Demo",
     "description": "A demonstration of the search capabilities made available via the ransack gem.",
-    "image-path": "projects/company_catalog.jpg",
+    "folder": "company_catalog",
+    "image": "company_catalog.jpg",
     "software":
     [
       {
@@ -60,6 +64,27 @@
       {
         "name": "Ruby on Rails",
         "description": "Web Development Framework"
+      }
+    ]
+  },
+  {
+    "name": "Static Site Template: Agricultural Produce",
+    "description": "A demonstration of the search capabilities made available via the ransack gem.",
+    "folder": "static_template",
+    "image": "produce.png",
+    "software":
+    [
+      {
+        "name": "Git",
+        "description": "Version Control"
+      },
+      {
+        "name": "Ruby on Rails",
+        "description": "Web Development Framework"
+      },
+      {
+        "name": "Scss & Bootstrap",
+        "description": "CSS Framework"
       }
     ]
   }
