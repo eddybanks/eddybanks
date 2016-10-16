@@ -14,6 +14,15 @@ var startup = function() {
   //   toggle: true
   // });
   // $('#sidebar').affix({offset: {top: 150} });
+  // $('.project-modal').modal();
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container {
+      padding-top: 70px;
+  }
 }
 
 $(document).ready(startup);

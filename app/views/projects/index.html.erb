@@ -1,6 +1,6 @@
 <section>
-  <!-- <div class="container-fluid"> -->
-    <!--div class="row"-->
+  <div class="container-fluid">
+    <div class="row">
       <% @projects.each do |project| %>
         <div class="col-xs-12 col-md-6 col-lg-6">
           <div class="panel panel-default">
@@ -9,7 +9,7 @@
               <%= image_tag 'projects/william_farm_produce/giphy.gif', data: { toggle: 'modal', target: "modal#{project.id}" }, class: 'img-responsive' %>
             </div>
             <div class="panel-heading">
-              <%= project.name %>
+              <%= link_to project.name, project_path(project) %>
             </div>
             <div class="panel-body">
               <%= simple_format project.description %>
@@ -24,9 +24,10 @@
             </div>
           </div>
         </div>
-        <%= render 'project_modal', locals: { project: project } %>
-        pry
+        <%= render partial: 'project_modal', locals: { project: project } %>
       <% end %>
-    <!--/div-->
-  <!-- </div> -->
+      <% @projects.each do |project| %>
+      <% end %>
+    </div>
+  </div>
 </section>

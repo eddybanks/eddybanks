@@ -1,8 +1,12 @@
-<nav id="main-nav" class="col-sm-2">
-  <ul class="nav nav-pills nav-stacked text-center" id="sidebar">
+<!-- <nav id="main-nav" class="col-sm-2"> -->
+<nav class="navbar navbar-default navbar-top" data-spy="affix" data-offset-top="100">
+  <ul class="nav navbar-nav text-center" id="sidebar">
     <li><%= link_to 'About', about_path, class: 'item' %></li>
     <li><%= link_to 'Skills', skills_path, class: 'item' %></li>
     <li><%= link_to 'Portfolio', projects_path, class: 'item' %></li>
     <li><%= link_to 'Contact', contact_path, class: 'item' %></li>
+  </ul>
+  <ul class="nav navbar-nav navbar-right">
+    <!-- <li><%#= link_to 'haha', '#' %>  </li> -->
   </ul>
 </nav>
