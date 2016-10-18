@@ -11,7 +11,7 @@
 
 var startup = function() {
   // $('.page-header').hide();
-  console.log("haha");
+  $(nav).addClass('container');
 }
 
 // $(document).ready(startup);
