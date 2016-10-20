@@ -9,18 +9,18 @@
   </head>
 
   <body class="outer-wrapper">
-    <div class="container">
-      <% if @page_header.present? %>
-        <%= render 'layouts/header' %>
-      <% end %>
+    <%= render 'layouts/nav' %>
+    <% if @page_header.present? %>
+      <%= render 'layouts/header' %>
+    <% end %>
+    <!-- <div class="container"> -->
       <!-- <div class="row"> -->
-        <%= render 'layouts/nav' %>
         <!-- <div class="col-md-10"> -->
           <div class="inner-wrapper">
             <div class="container-fluid">
               <%= yield %>
             </div>
-          </div>
+          <!-- </div> -->
         <!-- </div> -->
       <!-- </div> -->
     </div>
