@@ -5,7 +5,7 @@ Software developer
 ------------------
 
 *   🌍  I'm based in Vancouver, Canada
-*   🖥️  See my portfolio at [edmka.com](http://edmka.com)
+*   🖥️  See my portfolio at [edwincodes.com](https://www.edwincodes.com)
 *   🤝  I'm open to collaborating on open source projects especially with react and django stacks
 *   ⚡  I'm an anime geek and love music. I play the piano and currently learning the bass guitar. I also recently took up dancing.
 
